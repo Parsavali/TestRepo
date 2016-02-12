@@ -1,0 +1,173 @@
+C:\Python27\python.exe
+INFO: logical version is 0.9.2-MS9
+INFO: technical version is 85f8e7a6187fb47f3869c4af3878daa72839e760
+INFO: python version is 2.7.10
+INFO: bootstrapping xmake...
+INFO: determing project root...
+INFO:   no explicit root given
+INFO:   found C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\gen\.xmake
+INFO: component root is C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake
+INFO: build runtime is ntamd64
+INFO: logfile is C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\gen\boot.log
+INFO: determining required xmake version...
+WARN: no xmake version specified (please maintain file XMAKE_VERSION or xmake.cfg in project's cfg folder
+INFO: default version is None
+WARN: using actually installed version
+INFO: running xmake...
+INFO: technical xmake version is 85f8e7a6187fb47f3869c4af3878daa72839e760
+INFO: entering xmake PRELUDE phase
+INFO: determing project root...
+INFO:   no explicit root given
+INFO:   found C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\gen\.xmake
+INFO: loading content plugins ...
+INFO:   found (in order of evaluation): ['ant', 'dockerbuild', 'generic', 'maven', 'node', 'sapmake', 'zzdefaults']
+INFO: gendir is C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\gen
+INFO: logfile is C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\gen\build.log
+INFO: writing C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\gen\.xmake
+INFO: local tool installation in C:\Users\D065230\.xmake\tools
+INFO: determining version...
+INFO: no python dependencis found
+INFO: using custom build script from C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\cfg\build.py
+INFO: loading build plugin C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\cfg\build.py
+INFO: found repository types for import: ['NPM', 'Docker', 'Common']
+INFO: found repository types for export: ['Docker', 'Common']
+INFO: build is running on host: IGBN31651724A
+INFO: build runtime: ntamd64
+INFO: effective build configuration
+INFO: ---
+INFO: component_dir            : C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake
+INFO: src_dir                  : C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\src
+INFO: genroot_dir              : C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\gen
+INFO: do_import                : False                         
+INFO: do_export                : False                         
+INFO: productive               : False                         
+INFO: suppress_variant_handling: True                          
+INFO: variant_info             : {}                            
+INFO: variant_cosy_gav         : None                          
+INFO: variant_cosy             : None                          
+INFO: variant_coords           : None                          
+INFO: scm_snapshot_url         : None                          
+INFO: version                  : 4.5.1-SNAPSHOT                
+INFO: version_suffix           : SNAPSHOT                      
+INFO: import_repos             : ['https://nexus.wdf.sap.corp:8443/nexus/content/groups/build.milestones/']
+INFO: export_repo              : https://nexus.wdf.sap.corp:8443/nexus/content/repositories/deploy.snapshots/
+INFO: ---
+INFO: end of xmake PRELUDE phase
+INFO: entering xmake MODULES phase
+INFO: end of xmake MODULES phase
+INFO: entering xmake IMPORT phase
+INFO: importing was skipped, because the according option '-i' was not set
+INFO: end of xmake IMPORT phase
+INFO: entering xmake BUILD phase
+Building project with version: LocalBuild
+Shortened DependencyGraph for Target Default:
+<== Default
+   <== BuildApp
+      <== Clean
+
+The resulting target order is:
+ - Clean
+ - BuildApp
+ - Default
+Starting Target: Clean 
+Deleting contents of ./build/
+Finished Target: Clean
+Starting Target: BuildApp (==> Clean)
+Building project: C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\src\Phoneword\Phoneword.csproj
+  c:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe  "C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\src\Phoneword\Phoneword.csproj" /t:Build /m      /p:RestorePackages="False" /p:OutputPath="C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\src\build" /p:Configuration="Release" /logger:Fake.MsBuildLogger+ErrorLogger,"C:\Program Files\FAKE\tools\FakeLib.dll"
+c:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe  "C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\src\Phoneword\Phoneword.csproj" /t:Build /m      /p:RestorePackages="False" /p:OutputPath="C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\src\build" /p:Configuration="Release" /logger:Fake.MsBuildLogger+ErrorLogger,"C:\Program Files\FAKE\tools\FakeLib.dll"
+Microsoft (R) Build Engine version 4.0.30319.33440
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 09.10.2015 16:13:53.
+     1>Project "C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\src\Phoneword\Phoneword.csproj" on node 1 (Build target(s)).
+     1>_GenerateAndroidAssetsDir:
+       Skipping target "_GenerateAndroidAssetsDir" because it has no outputs.
+       _ResolveMonoAndroidSdks:
+         MonoAndroid Tools: C:\Program Files (x86)\MSBuild\Xamarin\Android\
+         MonoAndroid Binaries: C:\Program Files (x86)\MSBuild\Xamarin\Android\
+         Android Platform API level: 19
+         TargetFrameworkVersion: v4.4
+         Android NDK: C:\Users\D065230\Documents\Android\ndk\android-ndk-r10d\
+         Android SDK: C:\Users\D065230\AppData\Local\Android\android-sdk\
+         Android SDK Build Tools: C:\Users\D065230\AppData\Local\Android\android-sdk\build-tools\23.0.1\
+         Java SDK: C:\Program Files\Java\jdk1.8.0_60\
+       _GenerateAndroidResourceDir:
+       Skipping target "_GenerateAndroidResourceDir" because all output files are up-to-date with respect to the input files.
+       _ValidateAndroidPackageProperties:
+           PackageName: com.companyname.phoneword
+       _BuildAdditionalResourcesCache:
+       Skipping target "_BuildAdditionalResourcesCache" because all output files are up-to-date with respect to the input files.
+       _CreateAdditionalResourceCache:
+       Skipping target "_CreateAdditionalResourceCache" because it has no outputs.
+       _UpdateAndroidResgen:
+       Skipping target "_UpdateAndroidResgen" because all output files are up-to-date with respect to the input files.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       CoreCompile:
+       Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+       CopyFilesToOutputDirectory:
+         Copying file from "obj\Release\Phoneword.dll" to "C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\src\build\Phoneword.dll".
+         Phoneword -> C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\src\build\Phoneword.dll
+         Copying file from "obj\Release\Phoneword.pdb" to "C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\src\build\Phoneword.pdb".
+       _ScanAssemblies:
+       Skipping target "_ScanAssemblies" because all output files are up-to-date with respect to the input files.
+       _LinkAssemblies:
+       Skipping target "_LinkAssemblies" because all output files are up-to-date with respect to the input files.
+       _GenerateJavaStubs:
+       Skipping target "_GenerateJavaStubs" because all output files are up-to-date with respect to the input files.
+       _AddStaticResources:
+       Skipping target "_AddStaticResources" because all output files are up-to-date with respect to the input files.
+       _GeneratePackageManagerJava:
+       Skipping target "_GeneratePackageManagerJava" because all output files are up-to-date with respect to the input files.
+       _CreateAdditionalResourceCache:
+       Skipping target "_CreateAdditionalResourceCache" because it has no outputs.
+       _CreateBaseApk:
+       Skipping target "_CreateBaseApk" because all output files are up-to-date with respect to the input files.
+       _CreateAdditionalResourceCache:
+       Skipping target "_CreateAdditionalResourceCache" because it has no outputs.
+       _CompileJava:
+       Skipping target "_CompileJava" because all output files are up-to-date with respect to the input files.
+       _CreateAdditionalResourceCache:
+       Skipping target "_CreateAdditionalResourceCache" because it has no outputs.
+       _CompileToDalvik:
+       Skipping target "_CompileToDalvik" because all output files are up-to-date with respect to the input files.
+     1>Done Building Project "C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\src\Phoneword\Phoneword.csproj" (Build target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.10
+AppBuild-Output: C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\src\build\Phoneword.dll
+AppBuild-Output: C:\Users\D065230\Documents\Projects\XMake Projects\xmakePhonewordProject_Fake\src\build\Phoneword.pdb
+Finished Target: BuildApp
+Starting Target: Default (==> BuildApp)
+Hello World from FAKE
+Finished Target: Default
+
+---------------------------------------------------------------------
+Build Time Report
+---------------------------------------------------------------------
+Target     Duration
+------     --------
+Clean      00:00:00.0093743
+BuildApp   00:00:03.6853909
+Default    00:00:00.0009468
+Total:     00:00:03.9045544
+Status:    Ok
+---------------------------------------------------------------------
+INFO: building..
+INFO: build succeeded
+INFO: end of xmake BUILD phase
+INFO: entering xmake EXPORT phase
+INFO: exporting was skipped, because the according option '-e' was not set
+INFO: end of xmake EXPORT phase
+INFO: entering xmake FORWARD phase
+INFO: build result forwarding step skipped because of missing option -F
+INFO: end of xmake FORWARD phase
+INFO: entering xmake DEPLOY phase
+INFO: skipping deployment, because the according option '-d' was not set
+INFO: end of xmake DEPLOY phase
+INFO: XMake Build Successfully Done ~.~
