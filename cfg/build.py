@@ -14,7 +14,7 @@ class build(spi.BuildPlugin):
 	def __init__(self, build_cfg):              
 		self.build_cfg = build_cfg
 	def run(self):
-		cwd=os.path.abspath('Packages/FAKE.3.35.2/tools/Fake.exe') + ' src/XMake_build.fsx android-package'
+		cwd=os.path.abspath('Packages/FAKE.3.35.2/tools/Fake.exe') + ' src/XMake_build.fsx android-build'
 		retcode=subprocess.call(cwd, shell=True)
 		if retcode != 0:
 			raise XmakeException('Error while building the application...')
