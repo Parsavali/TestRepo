@@ -1,0 +1,22 @@
+<div class="product-price">
+
+
+<div class="product-pricing">
+<span class="product-standard-price">
+
+599,00 &#8364;
+
+</span>
+</div>
+<div class="product-promo">
+<span class="product-sales-price">
+
+419,30 &#8364;
+
+</span>
+</div>
+<div class="product-promo-callout">
+<span class="price-promo-callout">
+30% OFF
+</span>
+data-attr-value="52"
