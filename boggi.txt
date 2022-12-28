@@ -1,4 +1,4 @@
-<di1v class="product-price">
+<div class="product-price">
 
 
 <div class="product-pricing">
